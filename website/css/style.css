@@ -1,0 +1,92 @@
+/* Ændrer baggrundsfarve */
+body {
+  background-color: #dedddd;
+  font-family: "helvetica_neue";
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+@font-face {
+  font-family: "helvetica_neue";
+  src: url(../font/helvetica_neue_regular-webfont.woff2);
+}
+@font-face {
+  font-family: "helvetica_bold";
+  src: url(../font/Helvetica\ Neue\ Condensed\ Bold.woff2);
+}
+
+/* Tekst der skal centreres*/
+.centreret {
+  text-align: center;
+}
+
+/* Billede der skal centreres */
+img {
+  position: relative;
+  max-width: 100%;
+}
+
+/*banner i bunden af siden med links*/
+
+h1 {
+  font-size: 3vw;
+  letter-spacing: 3vw;
+}
+
+h2 {
+  color: #b602de;
+  font-size: 5vw;
+  letter-spacing: 2vw;
+  font-family: "helvetica_bold";
+  line-height: 3.7vw;
+}
+
+h3 {
+  font-size: 3vw;
+  letter-spacing: 1vw;
+}
+
+h4 {
+  letter-spacing: 3vw;
+  font-size: 1vw;
+}
+
+/* teksten til temasiderne */
+h5 {
+  font-size: 2vw;
+  letter-spacing: 0vw;
+  line-height: 3vw;
+}
+
+/* får overskriften og årstal til at være tæt på hinanden*/
+.overskrift {
+  margin-bottom: 0%;
+}
+
+.overskrift1 {
+  margin-top: 0%;
+}
+
+/*links*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*laver mellemrum mellem tekst og billede i projektsiden*/
+.projekt_pad {
+  padding-bottom: 5%;
+}
+
+/* Jeg gør tesksten inden i min li på "om mig" siden responsiv*/
+li {
+  font-size: 3vw;
+}
+
+.tema_underoverskrift {
+  color: #b602de;
+  line-height: 2.5vw;
+}
+
+footer {
+  text-align: center;
+}
